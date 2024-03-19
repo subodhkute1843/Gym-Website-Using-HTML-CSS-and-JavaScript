@@ -9,6 +9,12 @@
     <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
     <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
     <!-- JS -->
+    <script>
+        //Js
+        document.querySelector(".mobile-btn").addEventListener("click", function () {
+        document.querySelector(".menu").classList.toggle("active");
+        });
+    </script>
     <!-- CSS -->
     <link rel="stylesheet" href="style.css" />
 </head>
@@ -25,7 +31,7 @@
             </div>
             <ul class="nav">
                 <li class="nav-item"><a href="#">Home</a></li>
-                <li class="nav-item"><a href="#why-us">Feature</a></li>
+                <li class="nav-item"><a href="#why-us">Feature</a></li> 
                 <li class="nav-item"><a href="#explore">Explore</a></li>
                 <li class="nav-item"><a href="#discount">Register</a></li>
             </ul>
